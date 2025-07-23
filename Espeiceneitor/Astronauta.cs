@@ -8,7 +8,7 @@ namespace Espeiceneitor
 {
     public class Astronauta
     {
-        private static int _Index = 1;
+        private static int _Indexi = 1;
 
         public int Id { get; private set; }
         public string Nome { get; set; }
@@ -17,12 +17,13 @@ namespace Espeiceneitor
 
         public Astronauta(string nome, DateTime dataNascimento, string origem)
         {
-            Id = _Index;
+            Id = _Indexi;
             Nome = nome;
             DataNascimento = dataNascimento;
             Origem = origem;
 
-            _Index++;
+            _Indexi++;
         }
     }
 }
+//Deu certo
